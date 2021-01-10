@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/coffeehouse.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">REVIEWS</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">a food review blog</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">the<br>Foodies</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Megan Ng, Yuri Na, Karla Cumuric, Komal Patel</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE FOODIES</span></h5>
+    <p>The Foodies is a group of passionate foodies who are always looking for an adventure. Our members are Megan Ng, Yuri Na, Karla Cumuric, and Komal Patel.</p>
+    <p>We give honest reviews on new and small restaurants everywhere to find the hidden gems.</p>
+  </div>
+</div>
+
+<!-- Review Container -->
+<div class="w3-container" id="review" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Reviews</span></h5>
+    <p><span class="w3-tag">Sugar Marmalade (5/5)</span></p>
+      <img src="https://www.stephaniewhitetravels.com/wp-content/uploads/2017/05/sweet-ottawa-4-800x723.jpg" class="w3-image" style="width:100%">
+      <p>Sugar Marmalade is a restuarant with the authentic Hong Kong experience. They have a large menu varying from traditional Hong Kong sweet warm soups to classic savoury dishes like tomato pork chops on rice. The endless delicious choices make it an optimal place for any meal. Definitely a 5/5 restaurant!</p>
+  		</p>
+      
+      <!-- Tag Cloud --> 
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p>Keywords</p>
+          <p>
+            <span class="w3-tag w3-small w3-theme-d5">Hong Kong</span>
+            <span class="w3-tag w3-small w3-theme-d4">Classic</span>
+            <span class="w3-tag w3-small w3-theme-d3">Experience</span>
+            <span class="w3-tag w3-small w3-theme-d2">Delicious</span>
+            <span class="w3-tag w3-small w3-theme-d1">Authentic</span>
+            
+          </p>
+        </div>
+      </div>
+      
+      <p><span class="w3-tag">The Pickle Barrel (3/5)</span></p>
+      <img src="https://www.cbj.ca/wp-content/uploads/2014/11/Pickle_Barrel_921277071.jpg" style="width:100%">
+      <p>The Pickle Barrel offers a variety of different Western cuisine. They had a diverse menu which was very impresive. However, there were some problems with the service. It took way to long for my meals to arrive. I also think that for the price I paid, I could get better quality food from other restaurants. Overall a 3/5 restaurant.</p>
+      
+      <!-- Tag Cloud --> 
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p>Keywords</p>
+          <p>
+            <span class="w3-tag w3-small w3-theme-d5">Family</span>
+            <span class="w3-tag w3-small w3-theme-d4">Diverse</span>
+            <span class="w3-tag w3-small w3-theme-d3">Service</span>
+            <span class="w3-tag w3-small w3-theme-d2">Menu</span>
+            <span class="w3-tag w3-small w3-theme-d1">Quality</span>
+            
+          </p>
+        </div>
+      </div>
+      
+      <p><span class="w3-tag">The Cheesecake Factory (4/5)</span></p>
+      <img src="https://img1.mashed.com/img/gallery/what-the-cheesecake-factory-doesnt-want-you-to-know/intro.jpg" style="width:100%">
+      <p>At The Cheesecake Factory you can enjoy a great quality meal along with excellent dessert. The service is always spot on and the I can never get over their cheesecake. I always walk out with a full stomack due to their large portion sizes. However, the line up is always long. This is definate a great restaurant</p>
+    
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+</body>
+</html>
