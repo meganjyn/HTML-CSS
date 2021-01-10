@@ -14,7 +14,7 @@ body, html {
 .bgimg {
   background-position: center;
   background-size: cover;
-  background-image: url("/w3images/coffeehouse.jpg");
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5a90252eda02bc96f23b007a/1519996100608-UH81HHXCYG6XXKHIXNXD/ke17ZwdGBToddI8pDm48kGTmrUSyNBpLyel9b9jKBUkUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYwL8IeDg6_3B-BRuF4nNrNcQkVuAT7tdErd0wQFEGFSnHbwYNol2rWrWhAGyFwSbbV_NbGicbmKRFgSXNPVv6eaRRpqSuyNcR2IRLmcZLGHPQ/Food_header.jpg?format=2500w");
   min-height: 75%;
 }
 
@@ -34,7 +34,7 @@ body, html {
       <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
     </div>
     <div class="w3-col s3">
-      <a href="#menu" class="w3-button w3-block w3-black">REVIEWS</a>
+      <a href="#review" class="w3-button w3-block w3-black">REVIEWS</a>
     </div>
   </div>
 </div>
@@ -45,7 +45,7 @@ body, html {
     <span class="w3-tag">a food review blog</span>
   </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-white" style="font-size:90px">the<br>Foodies</span>
+    <span class="w3-tag" style="font-size:90px">the<br>Foodies</span>
   </div>
   <div class="w3-display-bottomright w3-center w3-padding-large">
     <span class="w3-text-white">Megan Ng, Yuri Na, Karla Cumuric, Komal Patel</span>
@@ -90,7 +90,7 @@ body, html {
       
       <p><span class="w3-tag">The Pickle Barrel (3/5)</span></p>
       <img src="https://www.cbj.ca/wp-content/uploads/2014/11/Pickle_Barrel_921277071.jpg" style="width:100%">
-      <p>The Pickle Barrel offers a variety of different Western cuisine. They had a diverse menu which was very impresive. However, there were some problems with the service. It took way to long for my meals to arrive. I also think that for the price I paid, I could get better quality food from other restaurants. Overall a 3/5 restaurant.</p>
+      <p>The Pickle Barrel offers a variety of different Western cuisine. They had a diverse menu which was very impresive. However, there were some problems with the service. It took way to long for my meals to arrive. I also think that for the price I paid, I could get better quality food from other restaurants. Overall, a 3/5 restaurant.</p>
       
       <!-- Tag Cloud --> 
       <div class="w3-card w3-round w3-white w3-hide-small">
@@ -98,10 +98,10 @@ body, html {
           <p>Keywords</p>
           <p>
             <span class="w3-tag w3-small w3-theme-d5">Family</span>
-            <span class="w3-tag w3-small w3-theme-d4">Diverse</span>
-            <span class="w3-tag w3-small w3-theme-d3">Service</span>
-            <span class="w3-tag w3-small w3-theme-d2">Menu</span>
-            <span class="w3-tag w3-small w3-theme-d1">Quality</span>
+            <span class="w3-tag w3-small w3-theme-d4">Diverse Menu</span>
+            <span class="w3-tag w3-small w3-theme-d3">Slow Service</span>
+            <span class="w3-tag w3-small w3-theme-d2">Poor Quality</span>
+            <span class="w3-tag w3-small w3-theme-d1">Western Cuisine</span>
             
           </p>
         </div>
@@ -109,7 +109,21 @@ body, html {
       
       <p><span class="w3-tag">The Cheesecake Factory (4/5)</span></p>
       <img src="https://img1.mashed.com/img/gallery/what-the-cheesecake-factory-doesnt-want-you-to-know/intro.jpg" style="width:100%">
-      <p>At The Cheesecake Factory you can enjoy a great quality meal along with excellent dessert. The service is always spot on and the I can never get over their cheesecake. I always walk out with a full stomack due to their large portion sizes. However, the line up is always long. This is definate a great restaurant</p>
+      <p>At The Cheesecake Factory you can enjoy a great quality meal along with excellent dessert. The service is always spot on and the I can never get over their cheesecake. I always walk out with a full stomack due to their large portion sizes. However, the line up is always long. Overall, a 4/5, definately a great restaurant!</p>
+      
+      <!-- Tag Cloud --> 
+      <div class="w3-card w3-round w3-white w3-hide-small">
+        <div class="w3-container">
+          <p>Keywords</p>
+          <p>
+            <span class="w3-tag w3-small w3-theme-d5">Dessert</span>
+            <span class="w3-tag w3-small w3-theme-d4">Large Portions</span>
+            <span class="w3-tag w3-small w3-theme-d3">Long Line-up</span>
+            <span class="w3-tag w3-small w3-theme-d2">Great Quality</span>
+            <span class="w3-tag w3-small w3-theme-d1">Great Service</span>
+            
+          </p>
+        </div>
     
   </div>
 </div>
